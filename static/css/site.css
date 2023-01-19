@@ -66,17 +66,15 @@ input[type="checkbox"].input-validation-error {
 }
 .canvusHolder {
     position: relative;
-
-
-
-/*    border: 2px solid blue;*/
 }
+
 #can {
     position: relative;
     z-index: 1;
     left: 50%;
     transform: translate(-50%, 0%);
     margin-bottom:5%;
+    touch-action: none;
 }
 
 .resultButton {
